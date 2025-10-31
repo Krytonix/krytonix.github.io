@@ -1,30 +1,41 @@
-/* General styling */
+/* General body */
 body {
   margin: 0;
   padding: 0;
-  background: url("https://i.postimg.cc/DynYN57t/Home.png") no-repeat center center fixed;
-  background-size: cover;
   font-family: 'Minecraft', sans-serif;
-  color: white;
+  color: #fff;
+  text-align: center;
+  overflow-x: hidden;
 }
 
-
-/* Home Page Container */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
-
-/* Canva image */
-.main-image {
+/* 🔹 Background image full screen */
+.background-img {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 1000px;
-  border-radius: 12px;
-  margin-top: 40px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* 🔹 Main container styling */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 100px auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 16px;
+  padding: 50px 30px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(0, 255, 128, 0.5);
 }
 
 /* Buttons */
@@ -32,40 +43,34 @@ body {
   display: inline-block;
   margin: 15px;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #ffb347, #ffcc33);
+  background: linear-gradient(135deg, #00ff80, #8affc1);
   color: #000;
   text-decoration: none;
   font-weight: bold;
   border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transition: all 0.2s ease;
 }
 
 .btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+  box-shadow: 0 10px 25px rgba(0, 255, 128, 0.4);
 }
 
-/* Learn More color tweak */
-.learn-btn {
-  background: linear-gradient(135deg, #00ff80, #8affc1);
-}
-
-/* About Page Background */
+/* About Page */
 .about-body {
   background: linear-gradient(180deg, #202020, #000);
   color: #00ff80;
   padding: 40px 20px;
 }
 
-/* About Page Content Box */
 .info-box {
   max-width: 800px;
   margin: 40px auto;
-  background: rgba(10,10,10,0.75);
+  background: rgba(10, 10, 10, 0.75);
   border-radius: 12px;
   padding: 30px;
-  box-shadow: 0 8px 40px rgba(0,255,128,0.15);
+  box-shadow: 0 8px 40px rgba(0, 255, 128, 0.15);
   text-align: left;
   color: #d0ffd8;
   line-height: 1.6;
@@ -73,40 +78,29 @@ body {
 
 .page-title {
   color: #00ff80;
-  text-shadow: 0 0 10px rgba(0,255,128,0.3);
+  text-shadow: 0 0 10px rgba(0, 255, 128, 0.3);
 }
 
-/* Back button */
 .back-btn {
   background: #00ff80;
   color: #000;
   margin-top: 20px;
 }
 
+/* Footer */
 footer {
   margin: 40px 0 20px;
-  color: #222;
+  color: #ccc;
   font-size: 14px;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .main-image {
+  .container {
     width: 95%;
+    padding: 30px 20px;
   }
-  .info-box {
-    padding: 20px;
+  .title {
+    font-size: 1.8rem;
   }
 }
-/* Canva Design Box Size Fix */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 100px auto;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 16px;
-  padding: 40px;
-}
-
-
