@@ -1,2 +1,4 @@
-// Placeholder for future features
-console.log("Krytonix website loaded successfully ✅");
+// Smooth fade on load
+window.addEventListener("load", () => {
+  document.body.classList.add("fade-in");
+});
