@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krytonix Seed Finder</title>
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Krytonix Seed Finder</title>
-    <link rel="icon" type="image/png" href="https://i.postimg.cc/ZYwNNtTX/s.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/xyz123/krytonix-icon.png">
 
-  </head>
-    
-  <body>
+  <!-- Google Minecraft-style font -->
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
   <div class="container">
-  <div class="design">
-    <img src="https://i.postimg.cc/DynYN57t/Home.png" alt="Krytonix Design">
-    <div class="container">
-  <div class="design">
-    <img src="https://i.postimg.cc/DynYN57t/Home.png" alt="Krytonix Design">
+    <img src="https://i.postimg.cc/DynYN57t/Home.png" alt="Krytonix Design" class="main-image">
 
-    <!-- Invisible clickable area over "Open Map" -->
-    <a href="#" id="openMap" title="Open Map"></a>
+    <!-- Invisible clickable area for “Open Map” -->
+    <a href="https://www.chunkbase.com/apps/seed-map" target="_blank" id="openMap" title="Open Map"></a>
 
-    <!-- Real visible Learn More button placed below image (or overlay as you prefer) -->
+    <!-- Learn More button -->
     <a href="#about" id="learnMoreBtn" class="learn-btn">Learn More</a>
   </div>
-</div>
 
-<!-- ABOUT SECTION -->
-<section id="about" class="about-section">
-  <div class="about-inner">
-    <h2>About Krytonix Seed Finder</h2>
-    <p>
-      Krytonix Seed Finder lets you paste any Minecraft seed and instantly open a world map (via Chunkbase).
-      Choose edition & version, explore villages, strongholds, slime chunks and teleport coordinates.
-    </p>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <div class="about-inner">
+      <h2>About Krytonix Seed Finder</h2>
+      <p>
+        Krytonix Seed Finder lets you paste any Minecraft seed and instantly open a world map using Chunkbase.
+        Explore biomes, structures, villages, and more — perfect for Java & Bedrock players.
+      </p>
 
-    <h3>How to use</h3>
-    <ol>
-      <li>Click <strong>Open Map</strong> (or the image button).</li>
-      <li>Enter/paste your Minecraft seed in the prompt and press OK.</li>
-      <li>Chunkbase will open in a new tab with the seed — explore structures there.</li>
-    </ol>
+      <h3>How to Use</h3>
+      <ol>
+        <li>Click <strong>Open Map</strong> button above.</li>
+        <li>Enter or paste your Minecraft seed.</li>
+        <li>Chunkbase will open and generate your world map.</li>
+      </ol>
 
-    <h3>Tips</h3>
-    <ul>
-      <li>Use Java edition seeds for Java worlds; pick version carefully (1.8/1.16/1.20...)</li>
-      <li>Upload level.dat in future to auto-read seed (coming soon).</li>
-      <li>Mobile: rotate to landscape for wider map view.</li>
-    </ul>
+      <h3>Tips</h3>
+      <ul>
+        <li>Use correct edition (Java / Bedrock) for accurate results.</li>
+        <li>Choose your Minecraft version carefully (1.8–1.20+ supported).</li>
+        <li>Mobile users: rotate screen for full map view.</li>
+      </ul>
 
-    <button id="backTop" class="back-btn">Back to top</button>
-  </div>
-</section>
+      <button id="backTop" class="back-btn">Back to top</button>
+    </div>
+  </section>
 
-<footer>© 2025 Krytonix. All rights reserved.</footer>
+  <footer>© 2025 Krytonix. All rights reserved.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
 
     
