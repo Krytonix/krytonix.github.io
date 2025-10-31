@@ -1,2 +1,2 @@
-// Placeholder for future animations or interactivity
+// Placeholder for future updates
 console.log("Krytonix Seed Finder loaded ✅");
