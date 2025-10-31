@@ -12,15 +12,46 @@
   <div class="container">
   <div class="design">
     <img src="https://i.postimg.cc/DynYN57t/Home.png" alt="Krytonix Design">
+    <div class="container">
+  <div class="design">
+    <img src="https://i.postimg.cc/DynYN57t/Home.png" alt="Krytonix Design">
 
     <!-- Invisible clickable area over "Open Map" -->
-    <a href="#" id="openMap"></a>
+    <a href="#" id="openMap" title="Open Map"></a>
+
+    <!-- Real visible Learn More button placed below image (or overlay as you prefer) -->
+    <a href="#about" id="learnMoreBtn" class="learn-btn">Learn More</a>
   </div>
 </div>
 
-<footer>© 2025 Krytonix. All rights reserved.</footer>
-    <script  src="./script.js"></script>
+<!-- ABOUT SECTION -->
+<section id="about" class="about-section">
+  <div class="about-inner">
+    <h2>About Krytonix Seed Finder</h2>
+    <p>
+      Krytonix Seed Finder lets you paste any Minecraft seed and instantly open a world map (via Chunkbase).
+      Choose edition & version, explore villages, strongholds, slime chunks and teleport coordinates.
+    </p>
 
-  </body>
-  
-</html>
+    <h3>How to use</h3>
+    <ol>
+      <li>Click <strong>Open Map</strong> (or the image button).</li>
+      <li>Enter/paste your Minecraft seed in the prompt and press OK.</li>
+      <li>Chunkbase will open in a new tab with the seed — explore structures there.</li>
+    </ol>
+
+    <h3>Tips</h3>
+    <ul>
+      <li>Use Java edition seeds for Java worlds; pick version carefully (1.8/1.16/1.20...)</li>
+      <li>Upload level.dat in future to auto-read seed (coming soon).</li>
+      <li>Mobile: rotate to landscape for wider map view.</li>
+    </ul>
+
+    <button id="backTop" class="back-btn">Back to top</button>
+  </div>
+</section>
+
+<footer>© 2025 Krytonix. All rights reserved.</footer>
+
+
+    
