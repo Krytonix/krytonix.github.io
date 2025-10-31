@@ -1,2 +1,2 @@
-// Placeholder for future updates
-console.log("Krytonix Seed Finder loaded ✅");
+// Placeholder for future features
+console.log("Krytonix website loaded successfully ✅");
