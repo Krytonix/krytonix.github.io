@@ -1,13 +1,13 @@
 /* General styling */
 body {
   margin: 0;
+  padding: 0;
+  background: url("https://i.postimg.cc/DynYN57t/Home.png") no-repeat center center fixed;
+  background-size: cover;
   font-family: 'Minecraft', sans-serif;
-  background: linear-gradient(180deg, #4facfe, #00f2fe);
-  background-attachment: fixed;
-  color: #fff;
-  text-align: center;
-  overflow-x: hidden;
+  color: white;
 }
+
 
 /* Home Page Container */
 .container {
